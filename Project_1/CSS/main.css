@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+header, footer{
+  background-color: gold;
+  margin: 0;
+  padding: 25px 100px;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
