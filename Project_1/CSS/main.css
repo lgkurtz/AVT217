@@ -2,6 +2,10 @@
   box-sizing: border-box;
 
 }
+
+h1{
+  font-family: 'Cinzel', serif;
+}
 body{
   margin: 0;
   font-family: sans-serif;
