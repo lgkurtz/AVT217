@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+  background-color: #AAAAAA;
+}
+
 main.pattern2 {
   width: 1700px;
   height: 1000px;
@@ -12,22 +16,30 @@ main.pattern2 {
 .square_1 {
     width: 100px;
     height: 100px;
+    margin: 5px;
     background-color: blue;
+    border-color: black;
     float: left;
+
 }
 
 .square_2 {
   width: 100px;
   height: 100px;
+  margin: 5px;
   background-color: Gold;
   float: left;
+  border-color: black;
+  border: 50px;
 }
 
 .square_3 {
   width: 100px;
   height: 100px;
+  margin: 5px;
   float: left;
   background-color: purple;
+  border-color: black;
 }
 
 .circle_1{
@@ -107,5 +119,48 @@ main.pattern2 {
   margin: 40px;
   background-color: black;
   border-radius: 50%;
+  float: left;
+}
+
+
+
+main.pattern3{
+  width: 2400px;
+  height: 2400px;
+}
+
+.up_arrow {
+  width: 0;
+  height: 0;
+  border-left: 50px solid #ffcc66;
+  border-right: 50px solid #ffcc66;
+  border-bottom: 100px solid black;
+  float: left;
+ }
+
+.down_arrow{
+  width: 0;
+  height: 0;
+  border-left: 50px solid #ffcc66;
+  border-right: 50px solid #ffcc66;
+  border-top: 100px solid #f00;
+  float: left;
+}
+
+.right_arrow{
+  width: 0;
+  height: 0;
+  border-top: 50px solid #ffcc66;
+  border-bottom: 50px solid #ffcc66;
+  border-left: 100px solid green;
+  float: left;
+}
+
+.left_arrow{
+  width: 0;
+  height: 0;
+  border-top: 50px solid #ffcc66;
+  border-bottom: 50px solid #ffcc66;
+  border-right: 100px solid blue;
   float: left;
 }
