@@ -2,23 +2,44 @@ body{
   background-color: blue;
 }
 
-.shape_1 {
+.square_1 {
     width: 100px;
     height: 100px;
     background-color: blue;
     float: left;
 }
 
-.shape_2 {
+.square_2 {
   width: 100px;
   height: 100px;
   background-color: Gold;
   float: left;
 }
 
-.shape_3 {
+.square_3 {
   width: 100px;
   height: 100px;
   float: left;
   background-color: purple;
+}
+
+.circle_1{
+  height: 25px;
+  width: 25px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.circle_2{
+  height: 25px;
+  width: 25px;
+  background-color: violet;
+  border-radius: 50%;
+}
+
+.circle_3{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
 }
