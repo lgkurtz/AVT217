@@ -24,6 +24,7 @@
   width: 25px;
   background-color: pink;
   border-radius: 50%;
+  float: left;
 }
 
 .circle_2{
@@ -31,6 +32,7 @@
   width: 25px;
   background-color: violet;
   border-radius: 50%;
+  float: left;
 }
 
 .circle_3{
@@ -38,4 +40,5 @@
   width: 25px;
   background-color: yellow;
   border-radius: 50%;
+  float: left;
 }
