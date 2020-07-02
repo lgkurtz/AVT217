@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main.pattern2 {
+  width: 1700px;
+  height: 1000px;
+}
+
 .square_1 {
     width: 100px;
     height: 100px;
@@ -20,25 +31,81 @@
 }
 
 .circle_1{
-  height: 25px;
-  width: 25px;
-  background-color: pink;
+  height: 100px;
+  width: 100px;
+  background-color: black;
   border-radius: 50%;
   float: left;
 }
 
 .circle_2{
-  height: 25px;
-  width: 25px;
-  background-color: violet;
+  height: 90px;
+  width: 90px;
+  margin: 5px;
+  background-color: black;
   border-radius: 50%;
   float: left;
 }
 
 .circle_3{
-  height: 25px;
-  width: 25px;
-  background-color: yellow;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_4{
+  height: 70px;
+  width: 70px;
+  margin: 15px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_5{
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_6{
+  height: 50px;
+  width: 50px;
+  margin: 25px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_7{
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_8{
+  height: 30px;
+  width: 30px;
+  margin: 35px;
+  background-color: black;
+  border-radius: 50%;
+  float: left;
+}
+
+.circle_9{
+  height: 20px;
+  width: 20px;
+  margin: 40px;
+  background-color: black;
   border-radius: 50%;
   float: left;
 }
