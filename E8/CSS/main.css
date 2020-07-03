@@ -12,8 +12,12 @@ main.pattern2 {
   width: 1700px;
 }
 
+main.pattern4{
+  width: 1800px;
+}
+
 main.pattern5{
-  width: 1700px;
+  width: 1900px;
 }
 
 .square_1 {
@@ -227,11 +231,11 @@ main.pattern3{
 }
 
 .circle_11{
-    height: 335px;
-    width: 335px;
+    height: 290px;
+    width: 290px;
     background-image: radial-gradient(red 10%, black 80%);
     border-radius: 50%;
-    margin: 40px 10px;
+    margin: 50px 10px;
     float: left;
 }
 
@@ -258,6 +262,6 @@ main.pattern3{
   width: 85px;
   background-image: radial-gradient(white,grey);
   border-radius: 50%;
-  margin: -25px 27.5px 25px 27.5px;
+  margin: -25px 27.5px 15px 27.5px;
   float: left;
 }
