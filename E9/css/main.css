@@ -25,3 +25,54 @@ main.board{
   background-color: black;
   float: left;
 }
+
+
+main.News_Site{
+  width: 1500px;
+  margin: auto;
+  display: flow-root;
+}
+
+header{
+  width: 1500px;
+  height: 15vh;
+  margin: 30px auto 20px;
+  background-color: red;
+}
+
+.By_Line{
+  width: 1500px;
+  height: 5vh;
+  background-color: red;
+  margin-bottom: 20px;
+}
+.column_1{
+  width: 487px;
+  height: 1000px;
+  background-color: red;
+  float: left;
+  margin-right: 19px;
+  margin-bottom: 20px;
+}
+.column_2{
+  width: 487px;
+  height: 1000px;
+  background-color: yellow;
+  float: left;
+  margin-right: 19px;
+  margin-bottom: 20px;
+}
+.column_3{
+  width: 487px;
+  height: 1000px;
+  background-color: blue;
+  float: left;
+  margin-bottom: 20px;
+}
+
+footer{
+  width: 1500px;
+  height: 15vh;
+  background-color: red;
+  margin: 0 auto 10px;
+}
