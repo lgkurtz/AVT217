@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
   background-color: #AAAAAA;
-}
+} */
 
 main.pattern2 {
   width: 1700px;
@@ -162,5 +162,56 @@ main.pattern3{
   border-top: 50px solid #ffcc66;
   border-bottom: 50px solid #ffcc66;
   border-right: 100px solid blue;
+  float: left;
+}
+
+.square_4 {
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, red, red, purple, purple);
+}
+.square_5{
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, red,purple, purple,purple, blue, blue, blue);
+}
+
+.square_6{
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, blue, purple);
+}
+.square_7{
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, purple, red);
+}
+.square_8{
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, blue, purple, purple, red);
+}
+.square_9{
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 0px 5px 10px black;
+  float: left;
+  background-image: linear-gradient(to bottom right, purple, red, red);
+}
+.square_10{
+  width: 450px;
+  height: 450px;
+  background-color: red;
+  box-shadow: 0px 0px 5px 10px black;
   float: left;
 }
