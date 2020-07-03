@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
   background-color: #AAAAAA;
-} */
+}
 
 main.pattern2 {
   width: 1700px;
-  height: 1000px;
+}
+
+main.pattern4{
+  width 1700px;
 }
 
 .square_1 {
@@ -213,5 +216,48 @@ main.pattern3{
   height: 450px;
   background-color: red;
   box-shadow: 0px 0px 5px 10px black;
+  float: left;
+}
+.circle_10{
+    height: 85px;
+    width: 85px;
+    background-image: radial-gradient(white,grey);
+    border-radius: 50%;
+    float: left;
+}
+
+.circle_11{
+    height: 335px;
+    width: 335px;
+    background-image: radial-gradient(red 10%, black 80%);
+    border-radius: 50%;
+    margin: 40px 10px;
+    float: left;
+}
+
+.circle_12{
+    height: 85px;
+    width: 85px;
+    background-image: radial-gradient(white,grey);
+    border-radius: 50%;
+    margin: 125px 0 0 -85px;
+    float: left;
+}
+
+.circle_13{
+  height: 85px;
+  width: 85px;
+  background-image: radial-gradient(white,grey);
+  border-radius: 50%;
+  margin: 250px 0 10px -85px;
+  float: left;
+}
+
+.circle_14{
+  height: 85px;
+  width: 85px;
+  background-image: radial-gradient(white,grey);
+  border-radius: 50%;
+  margin: -25px 27.5px 25px 27.5px;
   float: left;
 }
