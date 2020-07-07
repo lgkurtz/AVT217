@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  width: 475px;
+  width: 500px;
   margin: 0, auto;
 }
 .Square{
@@ -36,9 +36,9 @@ body{
   height: 250px;
   float: left
 }
-.LastSquare{
+/* .LastSquare{
   width: 100px;
   height: 100px;
   background-color: violet;
   float: left;
-}
+} */
