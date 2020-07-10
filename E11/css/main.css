@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.BlackBG{
+  background-color: black;
+}
+
+main.Traditional{
+  width: 65vw;
+  margin: 10px auto;
+  display: flow-root;
+}
+
+main.Inverted {
+  width: 65vw;
+  margin: 10px auto;
+  background-color: Black;
+  display: flow-root;
+}
+
+img{
+  width: 18vw;
+  float: right;
+  margin-top: -16vw;
+}
+
+h1, h2{
+  font-family: 'Almendra', serif;
+}
+
+h1{
+  width: 65vw;
+  margin: 10px auto;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+h2{
+  margin: 500px 5px;
+  width: 13vw;
+  height: 4vw;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  transform: rotate(270deg);
+  float:left;
+}
+
+p{
+  width: 45vw;
+  font-family: Myriad Pro, sans-serif;
+  color: white;
+  font weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  float: left;
+
+}
+
+p.with_image{
+  color: Black;
+  width: 45vw;
+}
+
+p.BlackText{
+  color: Black;
+  width: 60vw;
+  float: left;
+}
+
+h1.BlackText{
+  color: black;
+}
+
+h2.BlackText{
+  margin: 0 0 30px;
+  width: 65vw;
+  height: 1vw;
+  color: black;
+  transform: rotate(0deg);
+}
+
+@media screen and (max-width: 1770px) {
+  h2{
+    font-size: 32px;
+  }
+  img{
+    width: 20vw;
+    margin-top: -20vw;
+  }
+  p.with_image{
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 1625px) {
+  img{
+    width: 23vw;
+    margin-top: -28vw;
+  }
+  p.with_image{
+    width: 40vw;
+  }
+
+}
+
+@media screen and (max-width: 1350px) {
+  h2{
+    font-size: 24px;
+  }
+
+  p.with_image{
+    width: 65vw;
+  }
+  img{
+    width: 0;
+    /* Tried to get the image to move to the bottom of the workflow. Wasn't able to achieve this, so decided it would be better to remove it once it looked too shitty.  */
+  }
+}
+@media screen and (max-width: 1010px) {
+  h2{
+    font-size: 24px;
+    transform: rotate(0deg);
+    margin: 0 0 30px;
+    text-align: center;
+    width: 65vw;
+    height: 1vw;
+  }
+  p{
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p{
+    font-size: 10px;
+  }
+}
