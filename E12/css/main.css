@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Body{
+  width: 400px;
+  height: 800px;
+  background: black;
+  border: 5px solid pink;
+  border-radius: 35px;
+  margin: 10px auto;
+}
+
+
+.camera {
+  width: 15px;
+  height: 15px;
+  background: #555555;
+  border-radius: 50%;
+  position: relative;
+  left: calc(295px - 7.5px);
+  top: 20px;
+}
+
+.speaker{
+  width: 75px;
+  height: 10px;
+  background-color: #777777;
+  border-radius: 7.5px;
+  position: relative;
+  left: calc(195px - 37.5px);
+  top: 22px;
+}
+
+.screen{
+  width: 360px;
+  height: 700px;
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+  left: calc(200px - (360px / 2));
+  top: 60px;
+  transition: all 2s ease;
+}
+.screen:hover{
+/* change background image to your lock screen (adjust dimesnsions as needed) then have the hover show the homepage for your phone. */
+  
+  background-color: red;
+}
+
+.grill{
+  /* make the gril for the speaker here */
+}
+/* utilize z index to make buttons and pen protrsusions. */
