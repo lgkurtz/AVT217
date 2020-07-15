@@ -5,8 +5,8 @@
 }
 
 .Body{
-  width: 400px;
-  height: 800px;
+  width: 375px;
+  height: 750px;
   background: black;
   border: 5px solid pink;
   border-radius: 35px;
@@ -21,36 +21,71 @@
   border-radius: 50%;
   position: relative;
   left: calc(295px - 7.5px);
-  top: 20px;
+  top: 10px;
 }
 
 .speaker{
   width: 75px;
-  height: 10px;
-  background-color: #777777;
+  height: 5px;
+  background-color: #292828;
   border-radius: 7.5px;
   position: relative;
   left: calc(195px - 37.5px);
-  top: 22px;
 }
 
 .screen{
-  width: 360px;
-  height: 700px;
-  background-color: white;
+  width: 339px;
+  height: 695px;
+  background-image: url("../images/LockScreen.jpg");
+  background-size: contain;
   position: relative;
   border-radius: 15px;
-  left: calc(200px - (360px / 2));
-  top: 60px;
-  transition: all 2s ease;
+  left: calc(195px - (360px / 2));
+  top: 10px;
 }
 .screen:hover{
-/* change background image to your lock screen (adjust dimesnsions as needed) then have the hover show the homepage for your phone. */
-  
-  background-color: red;
+  background-image: url("../images/HomeScreen.jpg");
 }
 
 .grill{
-  /* make the gril for the speaker here */
+  width: 75px;
+  height: 5px;
+  position: relative;
+  left: calc(195px - 37.5px);
+  top: -5px;
 }
-/* utilize z index to make buttons and pen protrsusions. */
+
+.circle{
+  border-radius: 50%;
+  float: left;
+  width: 2.5px;
+  height: 2.5px;
+  position: relative;
+  background-color: #1c1c1c;
+  margin: 0 .5px;
+}
+.Volume{
+  width: 5px;
+  height: 115px;
+  position: relative;
+  background-color: silver;
+  border-radius: 15%;
+  top: -625px;
+  left: -7px;
+  z-index: -1;
+}
+
+.Bixby{
+  width: 5px;
+  height: 41.5px;
+  position: relative;
+  background-color: silver;
+  border-radius: 15%;
+  top: -575px;
+  left: -7px;
+  z-index: -1;
+}
+
+.Bixby:active+.screen{
+    background-image: url("../images/Bixby.jpg");
+}
