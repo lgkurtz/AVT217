@@ -85,7 +85,3 @@
   left: -7px;
   z-index: -1;
 }
-
-.Bixby:active+.screen{
-    background-image: url("../images/Bixby.jpg");
-}
