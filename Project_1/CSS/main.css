@@ -88,13 +88,15 @@ h1 {
 
 h2 {
   font-family: 'Cinzel', serif;
-  font Weight: 700;
+  font-weight: 400;
   font-size: 32px;
+  color: #9100FF;
+
 }
 
 h3 {
   font-family: 'Cinzel', serif;
-  font Weight: 400;
+  font-weight: 400;
   font-size: 25px;
 }
 
@@ -207,6 +209,35 @@ h5 {
   color: #9100FF;
 }
 
+/* Ending About changes */
+
+
+/* Events specific CSS */
+
+.events_container{
+  margin-left: 20px;
+  width: 35vw;
+  float: left;
+}
+
+.events_image{
+  width: 55vw;
+  float: left;
+  margin-left: 4vw;
+}
+p.Events_info{
+  line-height: 35px;
+  font-size: 24px;
+}
+
+p.Talent_Contact{
+  margin-top: -1vw;
+  width: 35vw;
+  margin-left: 50vw;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 320px){
 
   /* Makes Changes to all of the Homepage, as well as the Header and Footer universally */
@@ -284,4 +315,23 @@ h5 {
     position: relative;
     left: -95px;
   }
+
+  /* Ending About Page and Main Nav Menu */
+
+  /* Events Page changes */
+  .events_container{
+    width: 90vw;
+  }
+  p.Events_info{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .events_image{
+    width: 90vw;
+  }
+  p.Talent_Contact{
+    width: 90vw;
+    margin-left: 10px;
+  }
+
 }
