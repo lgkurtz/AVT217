@@ -20,6 +20,12 @@ header {
 
 }
 
+nav{
+  width: 90vw;
+  align-content: center;
+  position: relative;
+}
+
 footer {
   background-color: black;
   height: 5vw;
@@ -42,9 +48,9 @@ li {
   display: inline;
   margin-left: 200px;
   margin-right: 200px;
-  align-content: center;
   color: #9100FF;
   opacity: 0.75;
+  position: relative;
 }
 
 p {
@@ -73,8 +79,11 @@ h1 {
   font-family: 'Cinzel', serif;
   font Weight: 700;
   font-size: 101px;
+  width: 90vw;
   color: #8000FF;
   opacity: 0.75;
+  text-align: center;
+  position: relative;
 }
 
 h2 {
@@ -203,8 +212,11 @@ h5 {
   /* Makes Changes to all of the Homepage, as well as the Header and Footer universally */
   h1{
     font-family: 'Cinzel', serif;
+    margin: auto;
     font Weight: 700;
     font-size: 27px;
+    width: 55vw;
+    left: -25px;
   }
   .Gallery{
     width: 88vw;
@@ -232,7 +244,7 @@ h5 {
     font-size: 12px;
   }
   footer{
-    padding: 20px 0 50px 0;
+    padding: 20px 0 80px 0;
   }
   h5{
     font-size: 18px;
@@ -247,7 +259,29 @@ h5 {
   }
 /* End Homepage and Header+Footer changes */
 
-/* About Page Changes */
-
-
+/* About Page Changes as well as the Main Nav menu */
+  .slogan{
+    margin: 0 15vw;
+  }
+  .image_container{
+    width: 90vw;
+    margin-left: 15px;
+  }
+  .text_container{
+    width: 90vw;
+    margin-left: 15px;
+  }
+  p.About_Us{
+    font-size: 16px;
+  }
+  p.Contact{
+    font-size: 16px;
+  }
+  li{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    left: -95px;
+  }
 }
