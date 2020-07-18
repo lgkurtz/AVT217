@@ -2,16 +2,22 @@
   box-sizing: border-box;
 
 }
+a{
+  text-decoration: none;
+}
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: sans-serif;
+  display: flow-root;
 }
 
 header {
   background-color: gold;
-  margin: 0;
+  margin: 0 0 50px 0;
   padding: 25px 100px;
+  text-align: center;
+
 }
 
 footer {
@@ -23,6 +29,8 @@ footer {
   font-style: normal;
   font-size: 14px;
   color: white;
+  padding: 50px;
+  display: flow-root;
 }
 
 li {
@@ -31,6 +39,9 @@ li {
   font-size: 18px;
   display: inline;
 }
+
+
+
 
 p {
   font-family: Myriad Pro, sans-serif;
@@ -41,6 +52,7 @@ p {
 
 img {
   max-width: 100%;
+
 }
 
 
@@ -72,4 +84,59 @@ h5 {
   font-family: Myriad Pro, sans-serif;
   font weight: 300;
   font-style: normal;
+  color: White;
+}
+.Gallery{
+  margin: 0 auto;
+  margin-left: 20px;
+  width: 65vw;
+  height: 65vw;
+  float: left;
+  background-image: url("images/Happy_Waiter.jpg");
+  position: relative;
+}
+
+.Alt_Nav{
+  width: 30vw;
+  height: 65vw;
+  margin-left: 20px;
+  float: left;
+  display: flow-root;
+}
+
+.About{
+  width: 30vw;
+  height: 14vw;
+  margin-bottom: 1vw;
+  position: relative;
+  background-image: url("../images/Interior_Cropped.png");
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flow-root;
+
+}
+.Menu{
+  width: 30vw;
+  height: 14vw;
+  margin-bottom: 1vw;
+  position: relative;
+  background-image: url("../images/Crab_Cake_Home.png");
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flow-root;
+
+}
+.Events{
+  width: 30vw;
+  height: 14vw;
+  margin-bottom: 1vw;
+  position: relative;
+  background-image: url("../images/Netflix_Logo_Red.png");
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flow-root;
+
 }
