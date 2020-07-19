@@ -41,7 +41,14 @@ footer {
   position: absolute bottom;
 }
 
-li {
+li{
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 18px;
+  display: inline;
+}
+
+li.nav_list {
   font-family: 'Cinzel', serif;
   font-weight: 900;
   font-size: 18px;
@@ -96,8 +103,10 @@ h2 {
 
 h3 {
   font-family: 'Cinzel', serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 25px;
+  color: #9100FF;
+  text-align: center;
 }
 
 h4 {
@@ -237,6 +246,58 @@ p.Talent_Contact{
   text-align: center;
 }
 
+/* Events specific CSS ends */
+
+/* Menu specific CSS begins */
+
+
+.menu_container{
+  width: 55vw;
+  float: left;
+}
+
+ul.item{
+  margin-left: 20px;
+  align-content: center;
+  text-align: center;
+}
+li.item-name{
+  font-weight: 700;
+  font-size: 20px;
+}
+li.description{
+  font-weight: 400;
+  font-size: 18px;
+}
+p.menu_description{
+  margin-top: -1vw;
+  width: 55vw;
+  text-align: center;
+}
+
+.Menu_Images_1{
+  width: 35vw;
+  margin-right: 20px;
+  float: right;
+}
+
+.Menu_Images_2{
+  margin-right: 20px;
+  width: 35vw;
+  float: right;
+}
+
+.image_menu_format{
+  position: relative;
+}
+h5.image_overlay{
+  width: 35vw;
+  text-align: center;
+  color: black;
+  top: -120px;
+}
+
+
 
 @media screen and (max-width: 320px){
 
@@ -308,7 +369,7 @@ p.Talent_Contact{
   p.Contact{
     font-size: 16px;
   }
-  li{
+  li.nav_list{
     font-size: 14px;
     margin-left: 10px;
     margin-right: 10px;
@@ -334,4 +395,50 @@ p.Talent_Contact{
     margin-left: 10px;
   }
 
+/* Events Page changes End */
+
+
+/* Menu Page Changes start */
+
+  ul.item{
+    margin-left: 0;
+    align-content: center;
+    text-align: center;
+  }
+  .Menu_Images_1{
+    width: 90vw;
+    float: left;
+    margin-left: 15px;
+  }
+  h5.image_overlay{
+    font-size: 16px;
+    width: 90vw;
+    top: -80px;
+  }
+  .image_menu_format{
+    margin-bottom: -70px;
+  }
+  .menu_container{
+    width: 90vw;
+  }
+  p.menu_description{
+    margin-left: 15px;
+    width: 90vw;
+  }
+  li.item-name{
+    font-size: 18px;
+  }
+  h3{
+    width: 90vw;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  li.description{
+    font-size: 16px;
+  }
+  .Menu_Images_2{
+    width: 90vw;
+    float: left;
+    margin-left: 15px;
+  }
 }
